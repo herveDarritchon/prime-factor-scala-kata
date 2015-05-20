@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/minimal-scala.iml" filepath="$PROJECT_DIR$/.idea/modules/minimal-scala.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/minimal-scala-build.iml" filepath="$PROJECT_DIR$/.idea/modules/minimal-scala-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scala-kata-seed.iml" filepath="$PROJECT_DIR$/.idea/modules/scala-kata-seed.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scala-kata-seed-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scala-kata-seed-build.iml" />
     </modules>
   </component>
 </project>

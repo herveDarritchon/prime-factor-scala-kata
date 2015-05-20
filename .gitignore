@@ -1,5 +1,4 @@
 
-/.idea_modules
 /.classpath
 /.project
 /RUNNING_PID
@@ -22,7 +21,6 @@ src/main/webapp/dist
 *.class
 *.jar
 *.war
-/.idea
 
 Servers/
 
@@ -76,6 +74,13 @@ nb-configuration.xml
 # .idea/dataSources.xml
 # .idea/sqlDataSources.xml
 # .idea/dynamic.xml
+.idea/.name
+.idea/modules.xml
+.idea/modules/*.iml
+.idea/modules/*.iml
+.idea/scala_compiler.xml
+.idea/vcs.xml
+.idea/workspace.xml
 
 ## File-based project format
 *.ipr
