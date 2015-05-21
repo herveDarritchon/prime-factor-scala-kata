@@ -1,4 +1,3 @@
-
 /.classpath
 /.project
 /RUNNING_PID
@@ -9,7 +8,7 @@
 src/main/webapp/dist
 
 # Ignore all dotfiles...
-.*
+#.*
 
 # except for .gitignore
 !.gitignore
@@ -74,13 +73,13 @@ nb-configuration.xml
 # .idea/dataSources.xml
 # .idea/sqlDataSources.xml
 # .idea/dynamic.xml
-.idea/.name
-.idea/modules.xml
-.idea/modules/*.iml
-.idea/modules/*.iml
-.idea/scala_compiler.xml
-.idea/vcs.xml
-.idea/workspace.xml
+#.idea/.name
+#.idea/modules.xml
+#.idea/modules/*.iml
+#.idea/scala_compiler.xml
+#.idea/vcs.xml
+#.idea/workspace.xml
+#.idea/misc.xml
 
 ## File-based project format
 *.ipr
