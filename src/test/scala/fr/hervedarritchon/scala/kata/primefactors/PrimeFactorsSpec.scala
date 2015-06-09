@@ -49,12 +49,12 @@ class PrimeFactorsSpec extends FeatureSpec with GivenWhenThen with Matchers {
       pfList should be (List[Int](5))
     }
 
-    scenario("Prime factors is list(2,3) for number equal 6") {
+    scenario("Prime factors is list(3,2) for number equal 6") {
       Given("The user want to get the prime factors")
       When("He enters 6 as number")
       val pfList : List[Int] = PrimeFactors.getList(6)
-      Then("The list of prime factors should be List(2,2)")
-      pfList should be (List[Int](2,3))
+      Then("The list of prime factors should be List(3,2)")
+      pfList should be (List[Int](3,2))
     }
 
     scenario("Prime factors is list(7) for number equal 7") {
@@ -78,23 +78,23 @@ class PrimeFactorsSpec extends FeatureSpec with GivenWhenThen with Matchers {
       When("He enters 9 as number")
       val pfList : List[Int] = PrimeFactors.getList(9)
       Then("The list of prime factors should be List(3,3)")
-      pfList should be (List[Int](9,9))
+      pfList should be (List[Int](3,3))
     }
 
-    scenario("Prime factors is list(2,23) for number equal 69") {
+    scenario("Prime factors is list(23,3) for number equal 69") {
       Given("The user want to get the prime factors")
       When("He enters 69 as number")
       val pfList : List[Int] = PrimeFactors.getList(69)
-      Then("The list of prime factors should be List(2,23)")
-      pfList should be (List[Int](2,23))
+      Then("The list of prime factors should be List(23,3)")
+      pfList should be (List[Int](23,3))
     }
 
-    scenario("Prime factors is list(2,2,3,3,5,5,7,11) for number equal 69300") {
+    scenario("Prime factors is list(11, 7, 5, 5, 3, 3, 2, 2) for number equal 69300") {
       Given("The user want to get the prime factors")
       When("He enters 69300 as number")
-      val pfList : List[Int] = PrimeFactors.getList(4)
-      Then("The list of prime factors should be List(2,2,3,3,5,5,7,11)")
-      pfList should be (List[Int](2,2,3,3,5,5,7,11))
+      val pfList : List[Int] = PrimeFactors.getList(69300)
+      Then("The list of prime factors should be List(11, 7, 5, 5, 3, 3, 2, 2)")
+      pfList should be (List[Int](11, 7, 5, 5, 3, 3, 2, 2))
     }
 
   }
